@@ -29,9 +29,9 @@ This section gathers essential company-specific data using `yfinance`. It includ
 #### ❯ Data Prepared
 - **Adjusted Close Prices** (dividend & split-adjusted)
 - **Simple Returns:**  
-  \( R_t = \frac{P_t}{P_{t-1}} - 1 \)
+  $( R_t = \frac{P_t}{P_{t-1}} - 1)$
 - **Log Returns:**  
-  \( r_t = \ln\left(\frac{P_t}{P_{t-1}}\right) \)
+  $( r_t = \ln\left(\frac{P_t}{P_{t-1}}\right))$
 
 Each return series is analyzed structurally and visually for missing values, distributional properties, and volatility.
 

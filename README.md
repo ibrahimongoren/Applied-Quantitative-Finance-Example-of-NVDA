@@ -1,10 +1,10 @@
-# 📘 Applied Quantitative Finance: NVIDIA (NVDA) Stock Analysis
+# **Applied Quantitative Finance: NVIDIA (NVDA) Stock Analysis**
 
 This repository contains an advanced, interactive, and modular notebook focused on the **quantitative financial analysis** of NVIDIA Corporation (ticker: `NVDA`). The notebook demonstrates how to combine fundamental financial data, time-series analysis, volatility modeling, and risk simulation using Python-based tools and libraries.
 
 ---
 
-## 🔍 Project Structure & Scope
+## **Project Structure & Scope**
 
 ### 1. **Fundamental Dashboard**
 This section gathers essential company-specific data using `yfinance`. It includes:
@@ -37,7 +37,7 @@ Each return series is analyzed structurally and visually for missing values, dis
 
 ---
 
-## 📈 Time-Series Modeling
+## **Time-Series Modeling**
 
 ### 3. **Volatility Models**
 
@@ -56,7 +56,7 @@ Each return series is analyzed structurally and visually for missing values, dis
 
 ---
 
-## ⚠️ Risk Management
+## **Risk Management**
 
 ### 4. **Monte Carlo Simulation & VaR/CVaR**
 - Parametric simulation of return paths
@@ -68,7 +68,7 @@ Each return series is analyzed structurally and visually for missing values, dis
 
 ---
 
-## 🧪 Diagnostics & Validation
+## **Diagnostics & Validation**
 
 - **Residual Diagnostics:** Ljung-Box, Q-Q plots
 - **Normality Tests:** Jarque-Bera, Shapiro-Wilk
@@ -77,7 +77,7 @@ Each return series is analyzed structurally and visually for missing values, dis
 
 ---
 
-## 📊 Visualization Tools
+## **Visualization Tools**
 
 All plots are generated with `plotly`, allowing:
 - Interactive zoom and pan
@@ -87,7 +87,7 @@ All plots are generated with `plotly`, allowing:
 
 ---
 
-## 📦 Key Libraries Used
+## **Key Libraries Used**
 
 - `pandas`, `numpy`
 - `yfinance`
@@ -97,7 +97,7 @@ All plots are generated with `plotly`, allowing:
 
 ---
 
-## ✅ Use Cases
+## **Use Cases**
 
 This notebook is ideal for:
 - Financial Econometrics Projects
@@ -108,7 +108,7 @@ This notebook is ideal for:
 
 ---
 
-## 📁 File Structure
+## **File Structure**
 
 ```plaintext
 📦 Applied_Quantitative_Finance_NVDA.ipynb
@@ -118,29 +118,15 @@ This notebook is ideal for:
 ├── 🔁 Forecasting & Simulation
 ├── ⚠️ Risk Metrics (VaR, CVaR)
 ├── 🧪 Diagnostics & Backtesting
+├── 📈 Technical Analysis
 ```
 
 ---
 
-## 📄 License
-
-MIT License. You are free to use, distribute, and modify this notebook with proper attribution.
-
-> Developed as part of an advanced quantitative finance study. For educational and research purposes only.
-
-
----
-
-## 📄 License & Reference
-
-MIT License. You are free to use, distribute, and modify this notebook with proper attribution.
-
-> Developed as part of an advanced quantitative finance study. For educational and research purposes only.
-
-### 📚 Reference
+## **Reference**
 
 This notebook is based on methods and examples presented in:
 
-> **Uğur Soytaş** (2023). *Applied Quantitative Finance in Python: Selected theories and examples*. [ResearchGate](https://www.researchgate.net/publication/386032446_Applied_Quantitative_Finance_in_Python_Selected_theories_and_examples)
+> **Aleš Kresta** (2024). *Applied Quantitative Finance in Python: Selected theories and examples*. [ResearchGate](https://www.researchgate.net/publication/386032446_Applied_Quantitative_Finance_in_Python_Selected_theories_and_examples)
 
 Please cite this work accordingly if you use or modify the notebook for academic or professional purposes.
